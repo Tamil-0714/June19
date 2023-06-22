@@ -117,10 +117,10 @@ const gif = document.querySelector(".gif");
 gif.addEventListener('dblclick', async function(){
   just.innerHTML = "";
   alright.innerHTML = "";
-  await typeText("Love u ❤️", just, 100);
-  setTimeout(() => {
-    typeText("Love you too ❤️", alright, 100);
-  }, 650);
+  await typeText("Love u Jerry❤️", just, 100);
+ // setTimeout(() => {
+  await typeText("Love you too Tom❤️", alright, 100);
+ // }, 650);
 });
 function typeText(text, element, delay) {
   return new Promise(function (resolve) {
